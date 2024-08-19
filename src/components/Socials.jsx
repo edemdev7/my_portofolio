@@ -2,10 +2,10 @@ import Link from "next/link";
 import {FaGithub, FaLinkedin, FaTwitter, FaFacebook} from "react-icons/fa"
 
 const socials=[
-    {icon:<FaGithub/>, path:""},
-    {icon:<FaLinkedin/>, path:""},
+    {icon:<FaGithub/>, path:"https://github.com/edemdev7"},
+    {icon:<FaLinkedin/>, path:"https://www.linkedin.com/in/edem-kpomachi-7b2189264/"},
     {icon:<FaTwitter/>, path:""},
-    {icon:<FaFacebook/>, path:""},
+    {icon:<FaFacebook/>, path:"https://www.facebook.com/casimiredem.madetinkpomachi.9"},
 ];
 
 const Socials = ({containerStyles, iconStyles}) =>{
